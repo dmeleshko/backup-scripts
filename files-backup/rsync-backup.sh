@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Name: diff_backup.sh
+# Name: rsync-backup.sh
 # Description: Differential backup script using rsync and hard links
 # Author: Dmitriy Meleshko <dmitriy.meleshko@gmail.com>
 # Version: 0.2
-# Url: https://github.com/dmeleshko/diff_backup
-# Direct link: https://raw.githubusercontent.com/dmeleshko/diff_backup/master/diff_backup.sh
+# Url: https://github.com/dmeleshko/backup-scripts
+# Latest version: https://github.com/dmeleshko/backup-scripts/blob/master/files-backup/rsync-backup.sh
 
 
 # Configuration
