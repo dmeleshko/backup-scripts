@@ -22,6 +22,8 @@ function do_backup {
         # Today backup is already exist
         exit 1
     fi
+    # create today backup directory
+    mkdir -p $TODAY_BACKUP
     # do backup all bases one by one
     for db in $DATABASES
     do
